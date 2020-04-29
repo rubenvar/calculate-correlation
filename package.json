@@ -4,7 +4,7 @@
   "description": "A package that calculates correlation between two arrays. Simple, with no dependencies",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive --watch"
   },
   "keywords": [
     "math",
@@ -13,5 +13,9 @@
     "arrays"
   ],
   "author": "Rubén Vara <hey@rubenvara.io> (https://rubenvara.io)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2"
+  }
 }
