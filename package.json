@@ -1,19 +1,31 @@
 {
   "name": "calculate-correlation",
   "version": "1.0.0",
-  "description": "A package that calculates correlation between two arrays. Simple, with no dependencies",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha --recursive --watch"
-  },
+  "description": "Calculates the correlation coefficient of two arrays. Simple, with no dependencies",
   "keywords": [
     "math",
     "statistics",
     "correlation",
     "arrays"
   ],
-  "author": "Rubén Vara <hey@rubenvara.io> (https://rubenvara.io)",
+  "homepage": "https://github.com/rubenvar/calculate-correlation",
+  "bugs": {
+    "url": "https://github.com/rubenvar/calculate-correlation/issues",
+    "email": "hey@rubenvara.io"
+  },
   "license": "MIT",
+  "author": "Rubén Vara <hey@rubenvara.io> (https://rubenvara.io)",
+  "main": "index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rubenvar/calculate-correlation.git"
+  },
+  "scripts": {
+    "test": "mocha --recursive --watch"
+  },
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^7.1.2"
