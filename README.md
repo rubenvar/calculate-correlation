@@ -1,6 +1,6 @@
 # Calculate Correlation
 
-## What is this?
+## What is this
 
 A simple node package that calculates the [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) of two arrays. No dependencies needed.
 
@@ -53,7 +53,7 @@ As of now, the formula used by the package to calculate correlation is the one f
 
 Some kind of possible roadmap:
 
-- [ ] Maybe cut some decimal positions on the result number?
+- [x] Limit result number to _n_ decimal positions.
 - [ ] Add a config option to calculate correlation of a **population** instead of a sample.
 - [ ] Add a config option to specify the decimal positions in result.
 - [ ] Add a config option to specify if the result is preferred as string or number.
