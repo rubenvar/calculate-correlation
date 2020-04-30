@@ -34,7 +34,7 @@ const y = [3, 3, 6, 7];
 
 const correlation = calculateCorrelation(x, y);
 
-console.log(correlation); // logs -0.44280744277004763
+console.log(correlation); // logs -0.442807443
 ```
 
 ### Be careful
@@ -43,7 +43,7 @@ console.log(correlation); // logs -0.44280744277004763
 - Passing two arrays with non-numerical values in them will return an error.
 - Passign two arrays with different length will also return an error.
 
-If the input is correct, the result will be a `Number` between 1 and -1.
+If the input is correct, the result will be a `Number` between 1 and -1, rounded up to 9 decimal positions.
 
 ### More details
 
@@ -55,5 +55,7 @@ Some kind of possible roadmap:
 
 - [ ] Maybe cut some decimal positions on the result number?
 - [ ] Add a config option to calculate correlation of a **population** instead of a sample.
+- [ ] Add a config option to specify the decimal positions in result.
+- [ ] Add a config option to specify if the result is preferred as string or number.
 - [ ] Throw different error messages depending on what was the problem with the input.
 - [ ] Return other statistic values like _average_, _standard deviation_, _variance_, _covariance_, etc.
