@@ -1,5 +1,4 @@
-const { expect } = require('chai');
-const checkInput = require('../../lib/checks');
+const checkInput = require('../../lib/utils/checkInput');
 
 describe('checkInput function', () => {
   it('returns false if less than two args', () => {

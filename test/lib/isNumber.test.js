@@ -1,4 +1,3 @@
-const { expect } = require('chai');
 const isNumber = require('../../lib/utils/isNumber');
 
 describe('isNumber function', () => {
