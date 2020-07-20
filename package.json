@@ -1,6 +1,6 @@
 {
   "name": "calculate-correlation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Calculates the correlation coefficient of two arrays. Simple, with no dependencies",
   "keywords": [
     "math",
