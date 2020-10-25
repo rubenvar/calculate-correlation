@@ -1,11 +1,13 @@
 {
   "name": "calculate-correlation",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "description": "Calculates the correlation coefficient of two arrays. Simple, with no dependencies",
   "keywords": [
     "math",
     "statistics",
     "correlation",
+    "correlation-coefficient",
+    "pearson-correlation",
     "arrays"
   ],
   "homepage": "https://github.com/rubenvar/calculate-correlation",
