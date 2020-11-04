@@ -37,6 +37,7 @@ const y = [3, 3, 6, 7];
 const correlation = calculateCorrelation(x, y);
 
 console.log(correlation); // logs -0.442807443
+console.log(typeof correlation); // logs number
 ```
 
 Example with config options:
@@ -50,7 +51,7 @@ const x = [2, 5, 4, 1];
 const y = [3, 3, 6, 7];
 const config = {
   string: true,
-  decimals: true,
+  decimals: 5,
 };
 
 const correlation = calculateCorrelation(x, y, config);
@@ -85,8 +86,8 @@ As of now, the formula used by the package to calculate correlation is the one f
 Some kind of possible roadmap:
 
 - [x] Limit result number to _n_ decimal positions.
-- [ ] Add a config option to calculate correlation of a **population** instead of a sample.
 - [x] Add a config option to specify the decimal positions in result.
 - [x] Add a config option to specify if the result is preferred as string or number.
+- [ ] Add a config option to calculate correlation of a **population** instead of a sample.
 - [ ] Throw different error messages depending on what was the problem with the input.
 - [ ] Return other statistic values like _average_, _standard deviation_, _variance_, _covariance_, etc.
