@@ -26,7 +26,8 @@
     "url": "https://github.com/rubenvar/calculate-correlation.git"
   },
   "scripts": {
-    "test": "mocha --recursive --watch"
+    "test:dev": "mocha --recursive --watch",
+    "test": "mocha --recursive"
   },
   "devDependencies": {
     "chai": "^4.3.4",
