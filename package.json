@@ -1,6 +1,6 @@
 {
   "name": "calculate-correlation",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Calculates the correlation coefficient of two arrays. Simple, with no dependencies",
   "keywords": [
     "math",
@@ -29,7 +29,7 @@
     "test": "mocha --recursive --watch"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^7.1.2"
+    "chai": "^4.3.4",
+    "mocha": "^9.0.0"
   }
 }
