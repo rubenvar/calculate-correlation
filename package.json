@@ -30,7 +30,7 @@
     "test": "mocha --recursive"
   },
   "devDependencies": {
-    "chai": "^4.3.4",
-    "mocha": "^9.0.0"
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0"
   }
 }
